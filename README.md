@@ -1,5 +1,7 @@
 # Car-Sale-Records
 
+- Car Sale Records is a mobile application that I developed using RPGLE programming. This apps used for tracking the number of cars sold in Canada.
+
 - Form Views
 <img width="513" alt="Screen Shot 2019-10-29 at 8 36 28 PM" src="https://user-images.githubusercontent.com/30482314/67819890-76160c80-fa8d-11e9-9bcb-08bab94a1a01.png">
 
