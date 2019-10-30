@@ -1,0 +1,67 @@
+000100181203     A                                       DSPSIZ(27 132)
+000101181203     A          R FORMVIEW
+000102181203     A                                  1 10'&&F'
+000103181203     A                                  1132HTML('
+000104181203     A                                         Title : "Car Sales"
+000105181203     A                                         BackColor : &544d5b
+000106181203     A                                      ')
+000107181203     A* The imbedded web view chart
+000108181203     A                                  2  1'&&60%'
+000109181203     A                                  2 10'<<CHART>>'
+000110181203     A                                  2 10HTML(' Type : WebView
+000111181203     A                                              Border.Thickness : 1 ')
+000112181203     A*
+000113181203     A                                  3  1'&&F'
+000114181203     A                                  3 10'<<TABLE>>'
+000115181203     A                                  3 10HTML(' Type : Table
+000116181203     A                                             Border.Thickness : 1
+000117181203     A* Define column 1  - Company
+000118181203     A                                       Col%1
+000119181203     A                                       (
+000120181203     A                                         Name: CARSALECOMPANY
+000121181203     A                                         Type: Label
+000122181203     A                                         Content.Color:White
+000123181203     A                                         Header.Value: "Company"
+000124181203     A                                       )
+000125181203     A* Define column 2  - Calendar
+000126181203     A                                       Col%2
+000127181203     A                                       (
+000128181203     A                                         Name: CARSALECALENDAR
+000129181203     A                                         Type: Label
+000130181203     A                                         Content.Color:White
+000131181203     A                                         Header.Value: "Calendar"
+000132181203     A                                       )
+000133181203     A* Define column 3 - Actual Forecast
+000134181203     A                                       Col%3
+000135181203     A                                       (
+000136181203     A                                         Name: CARSALEACTUAL
+000137181203     A                                         Type: Label
+000138181203     A                                         Content.Color:White
+000139181203     A                                         Header.Value: "Actual"
+000140181203     A                                       )
+000141181203     A* Define column 4 - Previous Sales
+000142181203     A                                       Col%4
+000143181203     A                                       (
+000144181203     A                                         Name: CARSALEPRE
+000145181203     A                                         Type: Label
+000146181203     A                                         Content.Color:White
+000147181203     A                                         Header.Value: "Previous"
+000148181203     A                                       )
+000149181203     A* Define column 5 - Current Sales
+000150181203     A                                       Col%5
+000151181203     A                                       (
+000152181203     A                                         Name: CARSALECUR
+000153181203     A                                         Type: Label
+000154181203     A                                         Content.Color:White
+000155181203     A                                         Header.Value: "Current"
+000156181203     A                                       )
+000157181203     A* Define column 6 - Filler
+000158181203     A                                       Col%6
+000159181203     A                                       (
+000160181203     A                                         Name: FILLER
+000161181203     A                                         Type: Label
+000162181203     A                                         Header.Value: " "
+000163181203     A                                         Width : fill
+000164181203     A                                       )
+000165181203     A                                        ')
+000166181203     A*
